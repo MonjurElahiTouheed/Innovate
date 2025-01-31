@@ -70,6 +70,7 @@ li {
     padding-bottom: 254px;
     position: relative;
     z-index: 1;
+    height: 100vh;
 }
 
 #banner::after {
@@ -80,13 +81,14 @@ li {
     width: 100%;
     height: 100%;
     background: rgba(106, 98, 197, 0.9);
-    z-index: -1;
+    z-index: -2;
 }
 
 #banner .banner-element {
     position: absolute;
     top: 304px;
     left: 31px;
+    z-index: -1;
 }
 
 #banner .banner-details h1 {
@@ -104,8 +106,11 @@ li {
     width: 715px;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 16px;
     line-height: 40px;
+}
+
+#banner .banner-details .banner-btn {
+    margin-top: 16px;
 }
 
 #banner .banner-details button {
@@ -119,6 +124,9 @@ li {
     border: 1px solid #1BBF00;
     margin-right: 28px;
 }
+#banner .banner-details button:hover {
+    background: transparent;
+}
 
 #banner .banner-details a {
     font-family: "Open Sans", serif;
@@ -129,6 +137,10 @@ li {
     color: #fff;
     border-radius: 100px;
     border: 1px solid #1BBF00;
+}
+
+#banner .banner-details a:hover {
+    background: #1BBF00;
 }
 
 /* banner ends */
@@ -190,6 +202,7 @@ li {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
 #choose .choose-shape img {
@@ -199,11 +212,12 @@ li {
 #choose .choose-details {
     padding-left: 28px;
     transition: 0.5s;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
 #choose .choose-details:hover {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     box-shadow: 10px 30px 60px 0px rgba(162, 169, 192, 0.15);
     padding: 42px 146px 42px 28px;
     border-radius: 12px;

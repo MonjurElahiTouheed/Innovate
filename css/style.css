@@ -217,7 +217,7 @@ li {
 }
 
 #choose .choose-details:hover {
-    /* transform: scale(1.05); */
+    transform: scale(1.05);
     box-shadow: 10px 30px 60px 0px rgba(162, 169, 192, 0.15);
     padding: 42px 146px 42px 28px;
     border-radius: 12px;
@@ -322,6 +322,12 @@ li {
     border: 1px solid #1BBF00;
     margin-top: 30px;
     transition: 0.5s;
+}
+
+#do .do-content button:hover {
+    background: transparent;
+    border: 1px solid #1BBF00;
+    color: #000;
 }
 
 #do .row {
@@ -596,8 +602,6 @@ li {
     margin-top: 20px;
 }
 
-
-
 #plan .cart ul {
     margin-top: 12px;
     padding-left: 0;
@@ -863,10 +867,6 @@ li {
 #footer .footer-bottom .info {
     margin-left: 50px;
     gap: 60px;
-}
-
-#footer .footer-bottom .info {
-    margin-left: 50px;
 }
 
 /* footer part ends */

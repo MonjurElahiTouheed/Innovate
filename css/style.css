@@ -57,6 +57,7 @@ li {
     border: 1px solid #1BBF00;
 }
 
+
 /* Navbar ends */
 
 /* banner starts */
@@ -70,7 +71,6 @@ li {
     padding-bottom: 254px;
     position: relative;
     z-index: 1;
-    height: 100vh;
 }
 
 #banner::after {
@@ -485,11 +485,11 @@ li {
     width: 343px;
 }
 
-#testimonial .tesitmonial-images {
+/* #testimonial .tesitmonial-images {
     position: relative;
-}
+} */
 
-#testimonial .tesitmonial-images img:nth-child(2) {
+/* #testimonial .tesitmonial-images img:nth-child(2) {
     position: absolute;
     top: -11px;
     left: 252px;
@@ -506,7 +506,7 @@ li {
     position: absolute;
     top: 151px;
     left: 181px;
-}
+} */
 
 #testimonial .testimonial-shape {
     position: absolute;

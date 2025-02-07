@@ -676,7 +676,7 @@ li {
 }
 
 .carousel-inner {
-    overflow: visible;
+    padding: 105px 0;
 }
 
 .carousel button {
